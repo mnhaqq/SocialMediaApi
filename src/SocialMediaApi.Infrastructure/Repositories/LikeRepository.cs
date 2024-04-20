@@ -1,6 +1,8 @@
-﻿namespace SocialMediaApi.Infrastructure;
+﻿using SocialMediaApi.Infrastructure.Repositories.Common;
 
-public class LikeRepository
+namespace SocialMediaApi.Infrastructure.Repositories;
+
+public class LikeRepository : BaseRepository
 {
 
 }

@@ -1,6 +1,8 @@
-﻿namespace SocialMediaApi.Infrastructure;
+﻿using SocialMediaApi.Infrastructure.Repositories.Common;
 
-public class UserRepository
+namespace SocialMediaApi.Infrastructure.Repositories;
+
+public class UserRepository : BaseRepository
 {
 
 }

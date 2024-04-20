@@ -1,4 +1,4 @@
-﻿namespace SocialMediaApi.Application;
+﻿namespace SocialMediaApi.Application.Dtos.PostDto;
 
 public class ReadPostDTO
 {

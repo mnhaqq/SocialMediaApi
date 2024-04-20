@@ -1,4 +1,4 @@
-﻿namespace SocialMediaApi.Infrastructure;
+﻿namespace SocialMediaApi.Infrastructure.Repositories.Common;
 
 public class BaseRepository
 {

@@ -1,4 +1,4 @@
-﻿namespace SocialMediaApi.Infrastructure;
+﻿namespace SocialMediaApi.Infrastructure.Shared.Validators;
 
 public class AuthValidator
 {

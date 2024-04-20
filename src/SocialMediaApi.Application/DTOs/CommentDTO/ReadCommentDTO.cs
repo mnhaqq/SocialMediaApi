@@ -1,4 +1,4 @@
-﻿namespace SocialMediaApi.Application;
+﻿namespace SocialMediaApi.Application.Dtos.CommentDto;
 
 public class ReadCommentDTO
 {

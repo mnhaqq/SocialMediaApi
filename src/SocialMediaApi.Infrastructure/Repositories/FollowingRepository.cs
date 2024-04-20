@@ -1,6 +1,8 @@
-﻿namespace SocialMediaApi.Infrastructure;
+﻿using SocialMediaApi.Infrastructure.Repositories.Common;
 
-public class FollowingRepository
+namespace SocialMediaApi.Infrastructure.Repositories;
+
+public class FollowingRepository : BaseRepository
 {
 
 }
