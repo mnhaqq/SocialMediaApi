@@ -3,6 +3,6 @@
 namespace SocialMediaApi.Core.Entities;
 
 public class Hashtag : BaseEntity
-{   public required string hashtag {  get; set; }
-    public Post post { get; set; }
+{   public required string Content { get; set; }
+    public Post? Post { get; set; }
 }
