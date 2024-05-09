@@ -4,8 +4,8 @@ namespace SocialMediaApi.Core.Entities;
 
 public class Like:BaseEntity
 {
-    public required User User { get; set; }
-    public required Post Post { get; set; }
-
-
+    public int? Userid { get; set; }
+    public int? Postid { get; set; }
+    public virtual Post? Post { get; set; }
+    public virtual User? User { get; set; }
 }

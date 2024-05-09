@@ -3,6 +3,8 @@
 namespace SocialMediaApi.Core.Entities;
 
 public class Hashtag : BaseEntity
-{   public required string Content { get; set; }
-    public Post? Post { get; set; }
+{  
+    public string Content { get; set; } = null!;
+    public int? Postid { get; set; }
+    public virtual Post? Post { get; set; }
 }

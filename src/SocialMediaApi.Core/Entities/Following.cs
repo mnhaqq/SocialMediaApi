@@ -4,7 +4,12 @@ namespace SocialMediaApi.Core.Entities;
 
 public class Following:BaseEntity
 {
-   public required User User { get; set; }
-    public required User FollowingUser { get; set; }
+    public int? Userid { get; set; }
+
+    public int? Followinguserid { get; set; }
+
+    public virtual User? Followinguser { get; set; }
+
+    public virtual User? User { get; set; }
 
 }
