@@ -4,9 +4,9 @@ namespace SocialMediaApi.Core.Entities;
 
 public class Comment : BaseEntity
 {
-    public int? Userid { get; set; }
+    public int? UserId { get; set; }
 
-    public int? Postid { get; set; }
+    public int? PostId { get; set; }
 
     public string Content { get; set; } = null!;
 

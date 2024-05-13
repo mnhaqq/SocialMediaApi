@@ -7,7 +7,7 @@ public class User:BaseEntity
 {
     public string? Bio { get; set; }
     [Url]
-    public string? Profilepic { get; set; }
+    public string? ProfilePic { get; set; }
     public string Name { get; set; } = null!;
     [EmailAddress]
     public string Email { get; set; } = null!;
