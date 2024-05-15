@@ -3,7 +3,7 @@
 public class BaseEntity
 {
     public int Id { get; set; }
-    public DateTime Timecreated { get; set; }
+    public DateTime TimeCreated { get; set; }
 
 
 }
